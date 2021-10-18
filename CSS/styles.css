@@ -1,0 +1,78 @@
+body{
+    background-image: url("../assets/bg_space.bmp");
+    color: white;
+}
+.nav-item {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nav-item:hover{
+    transition: 1s;
+    background-color: #75a9d7;
+    border-radius: 5px;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.carousel-item {
+    height: 32rem;
+    background: black;
+    color: white;
+    position: relative;
+}
+
+.overlay-image{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.7;
+}
+
+.main-heading{
+    text-align: center;
+    margin: 2rem;
+}
+
+.separator-line{
+    border: 0;
+    height: 5px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(9, 84, 132), rgba(0, 0, 0, 0));
+}
+
+p{
+    text-align: center;
+}
+.footer-text{
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 0;
+}
+
+section {
+    margin: 2rem;
+}
+
+/* Container holding the image and the text */
+.img-container {
+    position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
